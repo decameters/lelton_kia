@@ -5,10 +5,11 @@ console.log('JQ loaded');
 
 $("a").hover(
     function() {
-        $(this).find('img').attr("src", "kia_2_final.jpg");
+        $(this).find('img').attr("src", "lelton_kia2.jpg");
     },
     function() {
-        $(this).find('img').attr("src", "kia_1_final.jpg");
+        $(this).find('img').attr("src", "lelton_kia1.jpg");
     }
     );
+
 };
